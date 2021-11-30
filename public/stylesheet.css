@@ -51,6 +51,7 @@ h2 {
 hr {
 	border: var(--size-border) inset var(--color-light);
 	margin: var(--pad-lg) 0;
+	size: 0;
 }
 
 header nav a {
@@ -78,9 +79,20 @@ nav ul li:not(:first-child) {
 }
 
 main hr {
-	border: 1pt solid darkslategray;
-	max-width: 300pt;
-	margin: var(--pad-md) auto;
+    border: none;
+    border-top: 3px double #333;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+
+main hr:after {
+    background: #fff;
+    content: '§';
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
 }
 
 main img {
@@ -89,10 +101,15 @@ main img {
 
 main blockquote {
 	display: inline;
-	color: green;
+	color: blue;
 	font-style: italic;
 	margin-block: 0;
 	margin-inline: 0;
+}
+
+main blockquote:before {
+	display: inline;
+	content: "> ";
 }
 
 main blockquote:before {
