@@ -1,9 +1,6 @@
-.PHONY: build, deploy
+.PHONY: build
 build:
 	./build
-
-deploy:
-	./deploy
-
+	
 clean:
 	rm -r dist/

@@ -92,6 +92,10 @@ main blockquote {
 	margin-inline: 0;
 }
 
+main blockquote::before {
+	content: "> "
+}
+
 footer {
 	font-family: monospace;
 }

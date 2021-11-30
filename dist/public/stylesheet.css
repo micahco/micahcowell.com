@@ -77,6 +77,10 @@ nav ul li:not(:first-child) {
 	margin-left: var(--pad-md);
 }
 
+main hr {
+	border: none;
+}
+
 main img {
 	max-width: var(--width-img);
 }
@@ -86,6 +90,10 @@ main blockquote {
 	font-style: italic;
 	margin-block: 0;
 	margin-inline: 0;
+}
+
+main blockquote::before {
+	content: "> "
 }
 
 footer {
