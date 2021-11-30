@@ -43,12 +43,9 @@ a img:hover {
 }
 
 h2 {
-	background: var(--color-dark);
-	color: var(--color-background);
 	font-weight: normal;
 	font-style: italic;
-	display: inline;
-	margin: 0 auto;
+	margin: 0;
 }
 
 hr {
