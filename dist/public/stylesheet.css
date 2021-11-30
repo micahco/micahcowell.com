@@ -1,0 +1,101 @@
+:root {
+	--color-background: darkslategray;
+	--color-light: lightgoldenrodyellow;
+	--color-dark: goldenrod;
+	--color-link: cyan;
+	--pad-lg: 31pt;
+	--pad-md: 14pt;
+	--size-border: 2pt;
+	--unicode-arrow: "\25C4\2800"
+}
+
+html {
+	background-color: var(--color-background);
+	color: var(--color-light);
+	line-height: 1.4;
+	font-family: serif;
+	padding: var(--pad-lg) var(--pad-md);
+}
+
+body {
+	max-width: 420pt;
+	border: var(--size-border) solid var(--color-light);
+	text-align: center;
+	margin: auto;
+	padding: var(--pad-lg);
+	position: relative;
+}
+
+a {
+	color: var(--color-link);
+}
+
+a:hover {
+	text-decoration: underline line-through;
+}
+
+a img {
+	border: var(--size-border) inset transparent;
+}
+
+a img:hover {
+	border: var(--size-border) inset var(--color-link)
+}
+
+h2 {
+	font-weight: normal;
+	font-style: italic;
+	margin: 0;
+}
+
+hr {
+	border: var(--size-border) inset var(--color-light);
+	margin: var(--pad-lg) 0;
+}
+
+header nav a {
+	font-family: monospace;
+}
+
+nav h4 {
+	color: var(--color-dark);
+	font-weight: normal;
+	margin: var(--pad-md) 0 0 0;
+}
+
+nav ul {
+	margin-block: 0;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	white-space: nowrap;
+}
+
+nav ul li:not(:first-child) {
+	margin-left: var(--pad-md);
+}
+
+main img {
+	margin-bottom: var(--pad-md);
+}
+
+main q {
+	color: var(--color-dark);
+	font-style: italic;
+}
+
+footer {
+	font-family: monospace;
+}
+
+footer img {
+	display: block;
+	margin: 0 auto;
+}
+
+footer time {
+	color: lightgreen;
+	margin-left: var(--pad-md);
+}

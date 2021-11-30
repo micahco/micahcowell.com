@@ -1,0 +1,10 @@
+mimetypes:
+  text/html: html
+  text/markdown: markdown
+  text/plain: plain
+site:
+  baseurl: https://micahcowell.com
+  language: en
+zas:
+  deploy: ../dist
+  layout: .zas/layout.html
