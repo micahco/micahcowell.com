@@ -3,6 +3,7 @@
 	--color-light: lightgoldenrodyellow;
 	--color-dark: goldenrod;
 	--color-link: cyan;
+	--color-quote: darkseagreen;
 	--pad-lg: 31pt;
 	--pad-md: 14pt;
 	--size-border: 2pt;
@@ -44,6 +45,7 @@ a img:hover {
 h2 {
 	font-weight: normal;
 	font-style: italic;
+	text-decoration: underline;
 	margin: 0;
 }
 
@@ -84,7 +86,7 @@ nav ul li:not(:first-child) {
 
 main hr {
 	border: none;
-    border-top: var(--size-border) dashed darkcyan;
+    border-top: var(--size-border) dashed var(--color-dark);
 	margin: var(--pad-lg) auto;
 	width: 70%;
 }
@@ -95,7 +97,7 @@ main img {
 
 main blockquote {
 	display: inline;
-	color: darkseagreen;
+	color: var(--color-quote);
 	font-style: italic;
 	margin-block: 0;
 	margin-inline: 0;
