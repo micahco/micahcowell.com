@@ -43,10 +43,12 @@ a img:hover {
 }
 
 h2 {
+	background: var(--color-dark);
+	color: var(--color-background);
 	font-weight: normal;
 	font-style: italic;
-	text-decoration: underline;
-	margin: 0;
+	display: inline;
+	margin: 0 auto;
 }
 
 hr {
@@ -96,7 +98,6 @@ main img {
 }
 
 main blockquote {
-	display: inline;
 	color: var(--color-quote);
 	font-style: italic;
 	margin-block: 0;
