@@ -84,7 +84,7 @@ nav ul li:not(:first-child) {
 
 main hr {
 	border: none;
-    border-top: var(--size-border) dashed gunmetal;
+    border-top: var(--size-border) dashed darkcyan;
 	margin: var(--pad-lg) auto;
 	width: 70%;
 }
