@@ -1,6 +1,8 @@
-## My Tumble log
+## My Tumblelog
 
 *a stream of conscious ...*
+
+<br>
 
 ![scarface](/public/montana.jpeg)
 
