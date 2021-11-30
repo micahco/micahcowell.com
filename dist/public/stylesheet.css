@@ -2,7 +2,6 @@
 	--color-background: darkslategray;
 	--color-light: lightgoldenrodyellow;
 	--color-dark: goldenrod;
-	--color-darker: slateblue;
 	--color-link: cyan;
 	--pad-lg: 31pt;
 	--pad-md: 14pt;
@@ -85,9 +84,9 @@ nav ul li:not(:first-child) {
 
 main hr {
 	border: none;
-    border-top: var(--size-border) dashed var(--color-darker);
-	margin: var(--pad-md) auto;
-	width: 50%;
+    border-top: var(--size-border) dashed gunmetal;
+	margin: var(--pad-lg) auto;
+	width: 70%;
 }
 
 main img {
