@@ -2,7 +2,7 @@
 
 *a stream of conscious ...*
 
-<br>
+---
 
 ![scarface](/public/montana.jpeg)
 

@@ -77,6 +77,10 @@ nav ul li:not(:first-child) {
 	margin-left: var(--pad-md);
 }
 
+main hr {
+	border: none;
+}
+
 main img {
 	max-width: var(--width-img);
 }
