@@ -6,7 +6,7 @@
 	--pad-lg: 31pt;
 	--pad-md: 14pt;
 	--size-border: 2pt;
-	--unicode-arrow: "\25C4\2800"
+	--width-img: 200pt;
 }
 
 html {
@@ -78,12 +78,14 @@ nav ul li:not(:first-child) {
 }
 
 main img {
-	margin-bottom: var(--pad-md);
+	max-width: var(--width-img);
 }
 
-main q {
+main blockquote {
 	color: var(--color-dark);
 	font-style: italic;
+	margin-block: 0;
+	margin-inline: 0;
 }
 
 footer {

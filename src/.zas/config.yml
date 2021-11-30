@@ -7,4 +7,4 @@ site:
   language: en
 zas:
   deploy: ../dist
-  layout: layout.html
+  layout: .zas/layout.html
