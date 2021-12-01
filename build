@@ -1,4 +1,0 @@
-rm -r dist/
-cd src
-zas
-cp -r ../public/ ../dist/

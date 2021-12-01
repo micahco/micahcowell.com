@@ -42,7 +42,8 @@ a img:hover {
 	border: var(--size-border) inset var(--color-link)
 }
 
-h2 {
+h1 {
+	font-size: 20pt;
 	font-weight: normal;
 	font-style: italic;
 	margin: 0;
@@ -92,6 +93,10 @@ main hr {
 
 main img {
 	max-width: 200pt;
+}
+
+main .caption {
+	display: none;
 }
 
 main blockquote {
