@@ -1,0 +1,21 @@
+nav {
+	position: fixed;
+	right: 20pt;
+	text-align: right;
+}
+
+nav ul {
+	margin-block: 0;
+	margin: 20pt 0;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	white-space: nowrap;
+	margin-left: 10pt;
+}
+
+nav img {
+	margin: 20pt 0;
+}

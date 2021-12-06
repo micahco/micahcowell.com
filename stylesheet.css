@@ -1,9 +1,9 @@
 body {
-	position: relative;
-	line-height: 1.4;
-	font-family: serif;
 	background-color: darkslategray;
 	color: lightgoldenrodyellow;
+	line-height: 1.4;
+	font-family: serif;
+	position: relative;
 }
 
 a {
@@ -15,19 +15,21 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	margin: 0;
 	font-weight: normal;
 	font-style: italic;
+	margin: 0;
 }main {
-	width: 400pt;
-	margin: 60pt auto;
+	width: 420pt;
+	margin: 30pt auto;
+	padding: 30pt;
 	text-align: center;
+	border: 2pt solid lightgoldenrodyellow;
 }
 
 main hr {
-	margin: 60pt auto;
 	border: none;
-    border-top: 2pt dotted;
+    border-top: 1pt dashed rosybrown;
+	margin: 50pt auto;
 }
 
 main img {
@@ -39,9 +41,10 @@ main .caption {
 }
 
 main blockquote {
+	color: darkseagreen;
+	font-style: italic;
 	margin-block: 0;
 	margin-inline: 0;
-	font-style: italic;
 }
 
 main blockquote p:first-child:before, main blockquote p:last-child:after {
@@ -52,10 +55,15 @@ main blockquote p:first-child:before, main blockquote p:last-child:after {
 	text-align: right;
 }
 
+nav a {
+	font-family: monospace;
+	font-size: 1.2em;
+}
+
 nav ul {
 	margin-block: 0;
-	margin: 20pt 0;
 	padding: 0;
+	margin: 20pt 0;
 }
 
 nav ul li {

@@ -1,0 +1,33 @@
+#!/bin/bash
+
+# config
+srcdir="src"
+destdir="dist"
+staticdir="static"
+template="src/template.html"
+
+# clean up
+rm -rf ${destdir}/
+mkdir ${destdir}/
+
+# generate html from markdown
+function generate() {
+	file=${1##*/}
+	base=${file%.*}
+	path="${destdir}/${base}.html"
+	pandoc --template=${template} ${path} > ${path}
+	# insert title
+	title=$(grep -m 1 "^# .*" ${path} | sed s/"# "//g)
+	sed -i "s/{title}/${title}/" ${path}
+	echo ${path}
+}
+
+for i in ${srcdir}/*.md ; do
+	generate $i
+done
+
+# create stylesheet from styles
+cat styles/*.css > static/stylesheet.css
+
+# add staticdir to destdir
+cp -a ${staticdir}/. ${destdir}/
