@@ -12,14 +12,15 @@ mkdir ${destdir}/
 
 # generate html from markdown
 function generate() {
-	file=${1##*/}
+	path=${1}
+	file=${path##*/}
 	base=${file%.*}
-	path="${destdir}/${base}.html"
-	pandoc --template=${template} ${path} > ${path}
+	dest="${destdir}/${base}.html"
+	pandoc --template=${template} ${path} > ${dest}
 	# insert title
 	title=$(grep -m 1 "^# .*" ${path} | sed s/"# "//g)
-	sed -i "s/{title}/${title}/" ${path}
-	echo ${path}
+	sed -i "s/{title}/${title}/" ${dest}
+	echo ${dest}
 }
 
 for i in ${srcdir}/*.md ; do
