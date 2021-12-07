@@ -1,29 +1,27 @@
 main {
-	width: 400pt;
-	margin: 60pt auto;
-	text-align: center;
+	max-width: 400pt;
+	margin: 0 auto;
+	padding: 100pt 20pt;
 }
-
+main > * {
+	margin: 10pt 0;
+}
 main hr {
-	margin: 60pt auto;
-	border: none;
-    border-top: 2pt dotted;
+	margin: 50pt 0;
 }
-
 main img {
+	display: block;
+	margin: 0 auto;
 	max-width: 200pt;
 }
-
 main .caption {
 	display: none;
 }
-
-main blockquote {
-	margin-block: 0;
-	margin-inline: 0;
-	font-style: italic;
+main blockquote  {
+	margin: 0;
+	padding: 5pt 20pt;
+	background-color: bisque;
 }
-
 main blockquote p:first-child:before, main blockquote p:last-child:after {
 	content: '"';
 }

@@ -17,9 +17,6 @@ function generate() {
 	base=${file%.*}
 	dest="${destdir}/${base}.html"
 	pandoc --template=${template} ${path} > ${dest}
-	# insert title
-	title=$(grep -m 1 "^# .*" ${path} | sed s/"# "//g)
-	sed -i "s/{title}/${title}/" ${dest}
 	echo ${dest}
 }
 

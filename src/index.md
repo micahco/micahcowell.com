@@ -1,5 +1,8 @@
-# My Tumblelog
-*(a stream of conscious)*
+
+
+![scarface](img/montana.jpeg)
+
+> I know of only two very real evils in life: remorse and illness.
 
 ---
 
@@ -24,9 +27,3 @@
 ---
 
 [The Designer's Challenge](https://www.ecoliteracy.org/article/designers-challenge-four-problems-you-must-solve)
-
----
-
-![scarface](img/montana.jpeg)
-
-> I know of only two very real evils in life: remorse and illness.
