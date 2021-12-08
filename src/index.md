@@ -1,29 +1,21 @@
+# Welcome
 
+What is this place?
 
-![scarface](img/montana.jpeg)
+1. [Unstructured Thought](archive.html)
+2. [Structured Procrastination](http://www.structuredprocrastination.com/)
+3. [An Appeal to Heaven](audio/battlehymnsolo.mp3)
 
-> I know of only two very real evils in life: remorse and illness.
+<br>
 
----
+## A Few Good... Links
 
-[The best of times, the worst of times](https://www.youtube.com/watch?v=qdBJ1X33rXM)
+* [Github/micahco](https://github.com/micahco)
 
----
+These links I will add to the [archive](archive.html) (someday)
 
-[Behold the Man](https://www.jesus-story.net/pilates-trial/)
-
----
-
-[Fra Angelico](https://www.wikiart.org/en/fra-angelico)
-
----
-
-[Vanitas Vanitatum](http://digital.library.upenn.edu/women/bronte/poems/pba-vanitas.html)
-
----
-
-[War Books](https://mwi.usma.edu/war-books-building-counterinsurgency-library/)
-
----
-
-[The Designer's Challenge](https://www.ecoliteracy.org/article/designers-challenge-four-problems-you-must-solve)
+* [https://johnmacfarlane.net/](https://johnmacfarlane.net/)
+* [https://www.ecoliteracy.org/article/designers-challenge-four-problems-you-must-solve](https://www.ecoliteracy.org/article/designers-challenge-four-problems-you-must-solve)
+* [https://mwi.usma.edu/war-books-building-counterinsurgency-library/](https://mwi.usma.edu/war-books-building-counterinsurgency-library/)
+* [https://www.jesus-story.net/pilates-trial/](https://www.jesus-story.net/pilates-trial/)
+* [https://www.wikiart.org/en/fra-angelico](https://www.wikiart.org/en/fra-angelico)

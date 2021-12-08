@@ -1,7 +1,6 @@
-html, body { margin: 0; }
 body {
 	line-height: 1.5em;
-	font-family: serif;
+	font-family: system-ui;
 	background-color: seashell;
 	color: darkslategray;
 }
@@ -12,49 +11,31 @@ a:hover {
 	background-color: lavender;
 }
 h1, h2, h3, h4, h5, h6 {
-	margin: 0;
 	font-weight: normal;
-	font-style: italic;
+	font-family: serif;
 }
-p {
+nav h2 {
 	margin: 0;
-}footer {
-	text-align: center;
-	padding: 20pt;
-}main {
-	max-width: 400pt;
-	margin: 0 auto;
-	padding: 100pt 20pt;
 }
-main > * {
-	margin: 10pt 0;
+nav a {
+	margin: 0 5pt;
+}
+main {
+	max-width: 400pt;
+	padding: 40pt;
+}
+main h1:first-child {
+	font-weight: bold;
+	font-size: 2.2em;
 }
 main hr {
-	margin: 50pt 0;
-}
-main img {
-	display: block;
-	margin: 0 auto;
-	max-width: 200pt;
+	margin: 40pt -20pt;
 }
 main .caption {
 	display: none;
 }
 main blockquote  {
-	margin: 0;
-	padding: 5pt 20pt;
-	background-color: bisque;
-}
-main blockquote p:first-child:before, main blockquote p:last-child:after {
-	content: '"';
-}nav {
-	position: fixed;
-	right: 0; top: 0;
-	width: 100%;
-	text-align: right;
-	padding: 10pt;
-	background-color: seashell;
-}
-nav a:not(:last-child) {
-	margin-right: 10pt;
+	margin: 10pt 0;
+	padding: 10pt 20pt;
+	border-left: 2pt solid grey;
 }

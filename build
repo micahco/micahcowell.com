@@ -17,15 +17,13 @@ function generate() {
 	base=${file%.*}
 	dest="${destdir}/${base}.html"
 	pandoc --template=${template} ${path} > ${dest}
-	echo ${dest}
+	echo "${dest}"
 }
 
 for i in ${srcdir}/*.md ; do
 	generate $i
 done
 
-# create stylesheet from styles
-cat styles/*.css > static/stylesheet.css
-
 # add staticdir to destdir
 cp -a ${staticdir}/. ${destdir}/
+echo "${destdir}/${staticdir}/"
