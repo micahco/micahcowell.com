@@ -36,6 +36,7 @@ main .caption {
 }
 main blockquote  {
 	margin: 10pt 0;
-	padding: 10pt 20pt;
+	padding: 5pt 10pt;
 	border-left: 2pt solid grey;
+	color: grey;
 }
