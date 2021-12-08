@@ -1,1 +1,1 @@
-created with [pandoc](https://pandoc.org/)
+created with https://pandoc.org/
