@@ -42,4 +42,4 @@ Yet the purest of ideas are corporeally corrupted
 
 # Vanitas Vanitatum
 
-[source](http://digital.library.upenn.edu/women/bronte/poems/pba-vanitas.html)
+[Anne Brontë ](http://digital.library.upenn.edu/women/bronte/poems/pba-vanitas.html)
