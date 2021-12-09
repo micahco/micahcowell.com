@@ -25,6 +25,9 @@ main {
 	max-width: 400pt;
 	padding: 40pt 20pt;
 }
+main > * {
+	word-wrap: break-word;
+}
 main h1:first-child {
 	font-weight: bold;
 	font-size: 2.2em;

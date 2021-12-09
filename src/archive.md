@@ -24,13 +24,11 @@ But I don't enjoy most programs. I don't like most of what the web has become. P
 
 <br>
 
-## Paradox v2
-
 *Computing, programming, "The Web"*
 
-All these *ideas*, pure and cool
+Simple and pure concepts.
 
-Yet the purest of ideas are corporeally corrupted
+Perhaps the purest of ideas are corporeally corrupted.
 
 ---
 
