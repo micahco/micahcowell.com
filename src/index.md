@@ -4,7 +4,7 @@ What is this place?
 
 1. [Unstructured Thought](archive.html)
 2. [Structured Procrastination](http://www.structuredprocrastination.com/)
-3. [An Appeal to Heaven](audio/battlehymnsolo.mp3)
+3. An Appeal to Heaven ([sound](audio/battlehymnsolo.mp3))
 
 <br>
 

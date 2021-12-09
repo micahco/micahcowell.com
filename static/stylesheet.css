@@ -5,6 +5,7 @@ body {
 	color: darkslategray;
 }
 a {
+	position: relative;
 	color: skyblue;
 }
 a:hover {
@@ -22,7 +23,7 @@ nav a {
 }
 main {
 	max-width: 400pt;
-	padding: 40pt;
+	padding: 40pt 20pt;
 }
 main h1:first-child {
 	font-weight: bold;

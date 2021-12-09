@@ -1,12 +1,10 @@
 # Archive
 
-Links and media from the web. Without order or sequence.
+Nonsequential articles consisting of links and media from the web.
 
-A stream of conscious.
+*A stream of conscious*
 
 <br>
-
-# &#128600;
 
 ---
 
