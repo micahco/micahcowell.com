@@ -18,7 +18,7 @@ Nonsequential articles consisting of links and media from the web.
 
 My paradoxical relationship with programming (and "The Web").
 
-I enjoy the task of writing code and deploying code on the internet, it's a very rewarding labor. I like writing useful code. Scripts that make my life easier; epedites a task. I like creating solutions to problems I encounter while writing code. It's a very engaging experience. Almost too engaging. It's my form of [structured procrastination](http://www.structuredprocrastination.com/).
+I enjoy the task of writing code and deploying code on the internet, it's a very rewarding labor. I like writing useful code. Scripts that make my life easier; epedites a task. I like creating solutions to problems I encounter while writing code. It's a very engaging experience. Almost too engaging.
 
 But I don't enjoy most programs. I don't like most of what the web has become. Producing meaningless code for a meaningless corporations. Code monkeys.
 

@@ -4,7 +4,7 @@ body {
 	background-color: seashell;
 	color: darkslategray;
 }
-a {
+a, .external-link {
 	position: relative;
 	color: skyblue;
 }

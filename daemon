@@ -1,0 +1,4 @@
+#!/bin/bash
+while :; do
+	inotifywait -e modify,create,delete,move -r src/ static/ && make
+done
