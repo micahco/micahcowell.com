@@ -1,5 +1,3 @@
-# home
-
 What is this place?
 
 1. [Unstructured Thought](/archive.html)
@@ -12,7 +10,7 @@ What is this place?
 
 * [Github/micahco](https://github.com/micahco)
 
-To be added... [archive](archive.html) (someday)
+To be [archived](archive.html) (someday)
 
 * [https://johnmacfarlane.net/](https://johnmacfarlane.net/)
 * [https://www.ecoliteracy.org/article/designers-challenge-four-problems-you-must-solve](https://www.ecoliteracy.org/article/designers-challenge-four-problems-you-must-solve)
