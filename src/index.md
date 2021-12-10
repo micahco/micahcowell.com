@@ -4,7 +4,7 @@ What is this place?
 
 1. [Unstructured Thought](archive.html "archive")
 2. [Structured Procrastination](http://www.structuredprocrastination.com/)
-3. <span id="aath" title="hymn" style="cursor: pointer">An Appeal to Heaven</span>
+3. An Appeal to Heaven
 
 <br>
 
@@ -12,7 +12,7 @@ What is this place?
 
 * [Github/micahco](https://github.com/micahco)
 
-These links I will add to the [archive](archive.html) (someday)
+To be added... [archive](archive.html) (someday)
 
 * [https://johnmacfarlane.net/](https://johnmacfarlane.net/)
 * [https://www.ecoliteracy.org/article/designers-challenge-four-problems-you-must-solve](https://www.ecoliteracy.org/article/designers-challenge-four-problems-you-must-solve)

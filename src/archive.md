@@ -2,9 +2,7 @@
 
 Nonsequential articles consisting of links and media from the web.
 
-*A stream of conscious*
-
-<br>
+*~A Stream of Thought~*
 
 ---
 
@@ -22,7 +20,7 @@ I enjoy the task of writing code and deploying code on the internet, it's a very
 
 But I don't enjoy most programs. I don't like most of what the web has become. Producing meaningless code for a meaningless corporations. Code monkeys.
 
-<br>
+~
 
 *Computing, programming, "The Web"*
 
