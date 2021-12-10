@@ -1,4 +1,4 @@
-# Archive
+# archive
 
 Nonsequential articles consisting of links and media from the web.
 

@@ -1,4 +1,6 @@
 #!/bin/bash
+
+watchdir="src/ static/"
 while :; do
-	inotifywait -e modify,create,delete,move -r src/ static/ && make
+	inotifywait -e modify,create,delete,move -r ${watchdir}  && make
 done

@@ -21,7 +21,7 @@ function generate() {
 }
 
 for i in ${srcdir}/*.md ; do
-	generate $i
+	generate ${i}
 done
 
 # add staticdir to destdir

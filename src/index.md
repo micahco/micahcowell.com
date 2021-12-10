@@ -1,10 +1,10 @@
-# Welcome
+# home
 
 What is this place?
 
-1. [Unstructured Thought](archive.html)
+1. [Unstructured Thought](archive.html "archive")
 2. [Structured Procrastination](http://www.structuredprocrastination.com/)
-3. An Appeal to Heaven ([sound](audio/battlehymnsolo.mp3))
+3. <span id="aath" title="hymn" style="cursor: pointer">An Appeal to Heaven</span>
 
 <br>
 

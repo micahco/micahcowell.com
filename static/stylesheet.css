@@ -1,4 +1,5 @@
 body {
+	padding: 10pt;
 	line-height: 1.5em;
 	font-family: system-ui;
 	background-color: seashell;
@@ -18,12 +19,9 @@ h1, h2, h3, h4, h5, h6 {
 nav h2 {
 	margin: 0;
 }
-nav a {
-	margin: 0 5pt;
-}
 main {
 	max-width: 400pt;
-	padding: 40pt 20pt;
+	margin-top: 40pt;
 }
 main > * {
 	word-wrap: break-word;
@@ -33,7 +31,7 @@ main h1:first-child {
 	font-size: 2.2em;
 }
 main hr {
-	margin: 40pt -20pt;
+	margin: 40pt 0;
 }
 main .caption {
 	display: none;
