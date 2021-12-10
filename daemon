@@ -1,6 +1,16 @@
 #!/bin/bash
 
-watchdir="src/ static/"
-while :; do
-	inotifywait -e modify,create,delete,move -r ${watchdir}  && make
-done
+watch() {
+	watchdir="src/ static/"
+	while :; do
+		inotifywait -e modify,create,delete,move -r ${watchdir} && make
+	done
+}
+
+make
+watch &
+pid[0]=${!}
+httpwatcher --root ./dist/ --port 8000 --no-browser &
+pid[1]=$!
+trap "kill ${pid[0]} ${pid[1]}; exit 1" INT
+wait

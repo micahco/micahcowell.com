@@ -1,0 +1,1 @@
+built with [micahco/ssg](https://github.com/micahco/ssg)
