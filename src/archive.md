@@ -39,3 +39,7 @@ Perhaps the purest of ideas are corporeally corrupted.
 # Vanitas Vanitatum
 
 [Anne Brontë ](http://digital.library.upenn.edu/women/bronte/poems/pba-vanitas.html)
+
+An appeal to heaven...
+
+<audio controls src="/audio/battlehymnsolo.mp3"></audio>
