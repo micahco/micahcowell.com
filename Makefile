@@ -1,5 +1,0 @@
-all:
-	./build
-
-dev: 
-	./daemon
