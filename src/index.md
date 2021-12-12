@@ -12,6 +12,7 @@ What is this place?
 
 Some links I'll [archive](/archive.html) someday...
 
+* <https://sive.rs/openbsd>
 * <https://www.benjaminwuethrich.dev/>
 * <http://doc.cat-v.org/bell_labs/pikestyles>
 * <http://redsymbol.net/>

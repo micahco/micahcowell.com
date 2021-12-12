@@ -14,8 +14,6 @@ Nonsequential articles consisting of links and media from the web.
 
 > I know of only two very real evils in life: remorse and illness.
 
-![mfw](images/montana.jpeg)
-
 ---
 
 ## Programming Paradox
@@ -32,8 +30,6 @@ But it seems the purest of ideas are (enventually) corporeally corrupted.
 
 A la G.K. Chesterton
 
-![the tallest mountain](images/sisyphus.gif)
-
 [The best of times, the worst of times](https://www.youtube.com/watch?v=qdBJ1X33rXM)
 
 ---
@@ -43,5 +39,3 @@ A la G.K. Chesterton
 [Anne Brontë ](http://digital.library.upenn.edu/women/bronte/poems/pba-vanitas.html)
 
 An appeal to heaven...
-
-<audio controls src="/audio/battlehymnsolo.mp3"></audio>
