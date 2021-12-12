@@ -10,29 +10,27 @@ Nonsequential articles consisting of links and media from the web.
 
 ---
 
-![scarface](images/montana.jpeg)
+## Remorse & Illness
 
 > I know of only two very real evils in life: remorse and illness.
 
+![mfw](images/montana.jpeg)
+
 ---
 
-# My Paradox
-
-My paradoxical relationship with programming (and "The Web").
-
-I enjoy the task of writing code and deploying code on the internet, it's a very rewarding labor. I like writing useful code. Scripts that make my life easier; epedites a task. I like creating solutions to problems I encounter while writing code. It's a very engaging experience. Almost too engaging.
-
-But I don't enjoy most programs. I don't like most of what the web has become. Producing meaningless code for a meaningless corporations. Code monkeys.
-
-~
+## Programming Paradox
 
 *Computing, programming, "The Web"*
 
 Simple and pure concepts.
 
-Perhaps the purest of ideas are corporeally corrupted.
+But it seems the purest of ideas are (enventually) corporeally corrupted.
 
 ---
+
+## Pessimistic Optimism
+
+A la G.K. Chesterton
 
 ![the tallest mountain](images/sisyphus.gif)
 
@@ -40,7 +38,7 @@ Perhaps the purest of ideas are corporeally corrupted.
 
 ---
 
-# Vanitas Vanitatum
+## Vanitas Vanitatum
 
 [Anne Brontë ](http://digital.library.upenn.edu/women/bronte/poems/pba-vanitas.html)
 

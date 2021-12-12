@@ -1,1 +1,1 @@
-built with [micahco/ssg](https://github.com/micahco/ssg)
+built with [ssg](https://github.com/micahco/ssg)

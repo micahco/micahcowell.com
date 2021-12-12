@@ -1,6 +1,6 @@
 What is this place?
 
-1. [Unstructured Thought](/archive.html)
+1. Unstructured Thought
 2. [Structured Procrastination](http://www.structuredprocrastination.com/)
 3. An Appeal to Heaven
 
@@ -10,11 +10,16 @@ What is this place?
 
 * [Github/micahco](https://github.com/micahco)
 
-To be [archived](archive.html) (someday)
+Some links I'll [archive](/archive.html) someday...
 
-* [https://johnmacfarlane.net/](https://johnmacfarlane.net/)
-* [https://www.ecoliteracy.org/article/designers-challenge-four-problems-you-must-solve](https://www.ecoliteracy.org/article/designers-challenge-four-problems-you-must-solve)
-* [https://mwi.usma.edu/war-books-building-counterinsurgency-library/](https://mwi.usma.edu/war-books-building-counterinsurgency-library/)
-* [https://www.jesus-story.net/pilates-trial/](https://www.jesus-story.net/pilates-trial/)
-* [https://www.wikiart.org/en/fra-angelico](https://www.wikiart.org/en/fra-angelico)
-* [https://eradman.com/posts/openbsd-workstation.html](https://eradman.com/posts/openbsd-workstation.html)
+* <https://www.benjaminwuethrich.dev/>
+* <http://doc.cat-v.org/bell_labs/pikestyles>
+* <http://redsymbol.net/>
+* <https://pedantic.software/>
+* <https://suckless.org/>
+* <https://johnmacfarlane.net/>
+* <https://www.ecoliteracy.org/article/designers-challenge-four-problems-you-must-solve>
+* <https://mwi.usma.edu/war-books-building-counterinsurgency-library/>
+* <https://www.jesus-story.net/pilates-trial/>
+* <https://www.wikiart.org/en/fra-angelico>
+* <https://eradman.com/posts/openbsd-workstation.html>
