@@ -1,6 +1,4 @@
----
-title: micahcowell.com
----
+% Welcome
 
 What is this place?
 

@@ -1,6 +1,4 @@
----
-title: Pessimistic Optimism
----
+% Pessimistic Optimism
 
 ## Pessimistic Optimism
 

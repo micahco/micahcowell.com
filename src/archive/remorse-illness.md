@@ -1,6 +1,4 @@
----
-title: Remorse & Illness
----
+% Remorse & Illness
 
 ## Remorse & Illness
 

@@ -1,7 +1,3 @@
----
-title: About
----
+% About
 
-## About
-
-blah blah blah
+Website made with [ssg](https://github.com/micahco/ssg)

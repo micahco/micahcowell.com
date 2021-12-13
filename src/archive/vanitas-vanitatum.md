@@ -1,6 +1,4 @@
----
-title: Vanitas Vanitatum
----
+% Vanitas Vanitatum
 
 ## Vanitas Vanitatum
 

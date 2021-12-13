@@ -1,6 +1,4 @@
----
-title:  README
----
+% README
 
 ## README
 

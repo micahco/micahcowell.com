@@ -1,6 +1,4 @@
----
-title: Programmer's Paradox
----
+% Programmer's Paradox
 
 ## Programmer's Paradox
 

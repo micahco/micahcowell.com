@@ -1,11 +1,6 @@
----
-title: Projects
----
+% Projects
 
-## Projects
-
-* [ssg(1)](https://github.com/micahco/ssg) - *static site generator*
-:	A tiny (~200 lines of POSIX shell) static site generator.
-:	Based on [pandoc](https://pandoc.org/). Generates html from source files.
+[ssg(1)](/projects/ssg.1.html) - *static site generator*
+:	A tiny script for creating websites with [pandoc](https://pandoc.org).
 :	Has a built in blog indexer and dev server ([httpwatcher](https://pypi.org/project/httpwatcher/) and [entr](https://eradman.com/entrproject/)).
-:	[man page](/projects/ssg.1.html)
+:	[GitHub](https://github.com/micahco/ssg)

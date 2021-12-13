@@ -30,3 +30,6 @@ blockquote  {
 	border-left: 2pt solid grey;
 	color: grey;
 }
+dt {
+	margin-top: 2em;
+}
