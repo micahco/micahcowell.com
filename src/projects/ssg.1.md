@@ -1,1 +1,0 @@
-/home/mac/projects/ssg/ssg.1.md
