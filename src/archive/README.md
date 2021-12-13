@@ -1,7 +1,5 @@
 % README
 
-## README
-
 *What is [/archive](/archive)?*
 
 :	A stream of consciousness

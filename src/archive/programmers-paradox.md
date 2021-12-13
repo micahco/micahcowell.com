@@ -1,7 +1,5 @@
 % Programmer's Paradox
 
-## Programmer's Paradox
-
 *Computing, programming, "The Web"*
 
 :	Simple and pure concepts
