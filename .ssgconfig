@@ -1,6 +1,0 @@
-#!/bin/bash
-
-SRCDIR="src"
-DESTDIR="dist"
-STATICDIR="static"
-TEMPLATE="template.html"

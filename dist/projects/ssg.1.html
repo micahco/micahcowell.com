@@ -4,47 +4,58 @@
 	<title></title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
-	<link rel="stylesheet" href="/stylesheet.css">
+	<link rel="stylesheet" href="/style.css">
 </head>
 <body>
 	<nav>
-		<h2>micahcowell.com</h2>
-		<a href="/">/index</a>
-		<a href="/archive.html">/archive</a>
+		<h2><a href="/">micahcowell.com</a></h2>
+		<a href="/about">/about</a>
+		<a href="/archive">/archive</a>
 		<a href="/projects">/projects</a>
 	</nav>
 	<main>
 		<h1 id="name">NAME</h1>
 <p><strong>ssg</strong> — static site generator</p>
 <h1 id="synopsis">SYNOPSIS</h1>
-<p><strong>ssg [-bd]</strong></p>
+<p><strong>ssg [-bld]</strong></p>
 <h1 id="description">DESCRIPTION</h1>
 <p>A tiny script for creating websites with <code>pandoc</code>.</p>
 <h2 id="options">Options</h2>
-<p>-b: Builds site.</p>
-<p>-d: Builds site; starts http server (<code>httpwatcher</code>) and watch daemon (<code>entr</code>).</p>
-<p>(default): Prints message.</p>
+<dl>
+<dt><strong><code>-b</code></strong></dt>
+<dd>Builds site.
+</dd>
+<dt><strong><code>-l</code></strong></dt>
+<dd>Indexes the <code>BLOGDIR</code> and creates <code>$BLOGDIR/index.md</code>.
+</dd>
+<dt><strong><code>-d</code></strong></dt>
+<dd>Starts http server (<code>httpwatcher</code>) and watch daemon (<code>entr</code>). Builds site on file change in <code>SRCDIR</code> <code>STATICDIR</code>.
+</dd>
+</dl>
 <h2 id="configuration">CONFIGURATION</h2>
-<p>The build paths can be set in the configuration file: <em>$PWD/.ssg</em>.</p>
+<p>A valid configuration file <code>./ssg.conf</code> is required to run the program.</p>
+<p><strong>Note</strong>: do not add trailing <code>/</code> to paths.</p>
+<p>Configuration variables:</p>
 <dl>
 <dt><code>SRCDIR</code></dt>
-<dd><p>(default) <code>$PWD/src</code></p>
-<p>Path to input directory. Can contain files of valid <code>pandoc</code> input formats.</p>
+<dd><p>Path to input directory. Can contain files of valid <code>pandoc</code> input formats.</p>
 <p><a href="https://pandoc.org/MANUAL.html#general-options" class="uri" class="uri">https://pandoc.org/MANUAL.html#general-options</a></p>
 </dd>
 <dt><code>DESTDIR</code></dt>
-<dd><p>(default) <code>$PWD/dist</code></p>
-<p>Path to output directory.</p>
+<dd><p>Path to output directory.</p>
 </dd>
 <dt><code>STATICDIR</code></dt>
-<dd><p>(default) <code>$PWD/static</code></p>
-<p>Path to static directory. This directory's contents will be copied to the <code>destdir</code>.</p>
+<dd><p>Path to static directory. This directory's contents will be copied into the <code>DESTDIR</code>.</p>
 </dd>
 <dt><code>TEMPLATE</code></dt>
-<dd><p>(default) <code>$PWD/template.html</code></p>
-<p>Path to <code>pandoc --template</code> html file.</p>
+<dd><p>Path to <code>pandoc --template</code> html file.</p>
 <p><a href="https://pandoc.org/MANUAL.html#templates" class="uri" class="uri">https://pandoc.org/MANUAL.html#templates</a></p>
+</dd>
+<dt><code>BLOGDIR</code> (optional)</dt>
+<dd><p>Path to blog entries. Should be inside the <code>SRCDIR</code></p>
+</dd>
+<dt><code>BLOGTITLE</code> (optional)</dt>
+<dd>Title of blog index. Can include Markdown heading symbol(s) <code>#</code>
 </dd>
 </dl>
 	</main>

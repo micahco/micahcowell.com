@@ -1,0 +1,32 @@
+body {
+	max-width: 40em;
+	margin: 0 auto;
+	padding: 1em;
+	line-height: 1.5em;
+	font-family: system-ui;
+}
+a {
+	color: teal;
+	text-decoration: none;
+}
+a:hover {
+	background-color: aqua;
+}
+nav h2 {
+	margin-bottom: 5pt;
+}
+nav a {
+	margin-right: 5pt;
+}
+main {
+	margin: 2em 0;
+}
+main hr {
+	margin: 4em 0;
+}
+blockquote  {
+	margin: 10pt 0;
+	padding: 5pt 10pt;
+	border-left: 2pt solid grey;
+	color: grey;
+}
