@@ -14,6 +14,6 @@ find ${dir}/*.md -print0 | xargs -0 ls -t | while read f; do
 	fi
 	base=${f%.md}
 	bd="${dir}/"
-	echo "* [${base#${bd}}](${base#${SRCDIR}}.html)" >> ${index}
+	echo "* [${base#${bd}}](${base#src}}.html)" >> ${index}
 done
 echo "indexed blog"

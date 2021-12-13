@@ -1,7 +1,7 @@
 % Archive
 
-* [README](src/archive/README.html)
-* [vanitas-vanitatum](src/archive/vanitas-vanitatum.html)
-* [programmers-paradox](src/archive/programmers-paradox.html)
-* [pessimistic-optimism](src/archive/pessimistic-optimism.html)
-* [remorse-illness](src/archive/remorse-illness.html)
+* [README](/archive/README}.html)
+* [vanitas-vanitatum](/archive/vanitas-vanitatum}.html)
+* [programmers-paradox](/archive/programmers-paradox}.html)
+* [pessimistic-optimism](/archive/pessimistic-optimism}.html)
+* [remorse-illness](/archive/remorse-illness}.html)
