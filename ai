@@ -1,5 +1,6 @@
 #!/bin/sh
 # archive indexer
+
 dir="src/archive"
 index="${dir}/index.md"
 if [ -f ${index} ]; then

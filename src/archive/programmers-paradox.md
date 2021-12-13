@@ -2,6 +2,6 @@
 
 *Computing, programming, "The Web"*
 
-:	Simple and pure concepts
+:	Harmless and pure concepts
 
 	But it seems the purest of ideas are corporeally corrupted
