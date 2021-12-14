@@ -1,0 +1,4 @@
+#!/bin/sh
+# generate gitignore
+
+find . -type l > .gitignore

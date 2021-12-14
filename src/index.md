@@ -13,13 +13,12 @@ A Few Good... Links
 
 From around the web
 
+* <https://eradman.com/>
 * <https://drewdevault.com/>
-* <https://sive.rs/openbsd>
-* <https://www.benjaminwuethrich.dev/>
-* <http://doc.cat-v.org/bell_labs/pikestyles>
+* <https://sive.rs>
 * <https://johnmacfarlane.net/>
+* <http://doc.cat-v.org/bell_labs/pikestyles>
 * <https://www.ecoliteracy.org/article/designers-challenge-four-problems-you-must-solve>
 * <https://mwi.usma.edu/war-books-building-counterinsurgency-library/>
 * <https://www.jesus-story.net/pilates-trial/>
 * <https://www.wikiart.org/en/fra-angelico>
-* <https://eradman.com/posts/openbsd-workstation.html>

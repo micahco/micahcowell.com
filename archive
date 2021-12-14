@@ -1,0 +1,52 @@
+#!/bin/sh
+
+DIR="src/archive"
+
+index() {
+	index="${DIR}/index.md"
+	if [ -f ${index} ]; then
+		rm ${index}
+	fi
+	touch ${index}
+	echo "% Archive" >> ${index}
+	echo "" >> ${index}
+	echo "* [README](/archive/README.html)" >> ${index}
+	find ${DIR}/*.md -print0 | xargs -0 ls -t | while read f; do
+		if [ "${f}" = ${index}  ] || [ "${f}" = "${DIR}/README.md" ]; then
+			continue
+		fi
+		f=${f%.md}
+		echo "* [${f#${DIR}/}](${f#src}.html)" >> ${index}
+	done
+	echo "indexed archive"
+}
+
+new() {
+	title="$@"
+	f="${DIR}/$(echo ${title} | sed -e 's/ /-/g').md"
+	if [ -f ${f} ]; then
+		echo "file already exists!"
+		break
+	fi
+	touch ${f}
+	echo "% ${title}" >> ${f}
+	echo "file created"
+}
+
+usageMsg() {
+	echo "usage: ./archive [-in] [title ...]"
+	exit 1
+}
+
+set -eu
+if [ $# -eq 0 ]; then
+	usageMsg
+fi
+if [ ${1} = "-i" ]; then
+	index
+elif [ ${1} = "-n" ]; then
+	shift
+	new $@ && index
+else
+	usageMsg
+fi
