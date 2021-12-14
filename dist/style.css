@@ -33,3 +33,12 @@ blockquote  {
 dt {
 	margin-top: 2em;
 }
+@media (prefers-color-scheme: dark) {
+	body{
+		background: darkslategray;
+		color: seashell;
+	}
+	a {
+		color: darkseagreen;
+	}
+}
