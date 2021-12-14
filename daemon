@@ -1,5 +1,4 @@
 #!/bin/sh
-# micahcowell.com ssg daemon
 
 # https://aweirdimagination.net/2020/06/28/kill-child-jobs-on-script-exit/
 cleanup() {
