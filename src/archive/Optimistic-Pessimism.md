@@ -1,4 +1,4 @@
-% Pessimistic Optimism
+% Optimistic Pessimism
 
 A la G.K. Chesterton
 

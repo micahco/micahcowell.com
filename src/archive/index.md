@@ -1,9 +1,7 @@
 % Archive
 
-	updated: Mon Dec 13 21:46:11 PST 2021
-
 * [README](/archive/README.html)
-* [Remorse & Illness](/archive/remorse-&-illness.html)
-* [Pessimistic Optimism](/archive/pessimistic-optimism.html)
-* [Programmers Paradox](/archive/programmers-paradox.html)
-* [Vanitas Vanitatum](/archive/vanitas-vanitatum.html)
+* [Vanitas Vanitatum](/archive/Vanitas-Vanitatum.html)
+* [Remorse and Illness](/archive/Remorse-and-Illness.html)
+* [Computing Paradox](/archive/Computing-Paradox.html)
+* [Optimistic Pessimism](/archive/Optimistic-Pessimism.html)

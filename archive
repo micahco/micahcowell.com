@@ -10,8 +10,6 @@ index() {
 	touch ${index}
 	echo "% Archive" >> ${index}
 	echo "" >> ${index}
-	echo "	updated: $(date)" >> ${index}
-	echo "" >> ${index}
 	echo "* [README](/archive/README.html)" >> ${index}
 	find ${DIR}/*.md -print0 | xargs -0 ls -t | while read f; do
 		if [ "${f}" = ${index}  ] || [ "${f}" = "${DIR}/README.md" ]; then
@@ -20,7 +18,6 @@ index() {
 		f=${f%.md}
 		filename=${f#${DIR}/}
 		title=$(echo ${filename} | sed -e 's/-/ /g')
-		title=$(echo ${title} | awk '{for(i=1;i<=NF;i++){ $i=toupper(substr($i,1,1)) substr($i,2) }}1')
 		echo "* [${title}](${f#src}.html)" >> ${index}
 	done
 	echo "indexed archive"
@@ -51,7 +48,7 @@ if [ ${1} = "-i" ]; then
 	index
 elif [ ${1} = "-n" ]; then
 	shift
-	new $@ && index
+	new $@
 else
 	usageMsg
 fi

@@ -1,10 +1,8 @@
 % README
 
-*What is [/archive](/archive)?*
+*What is [Archive](/archive)?*
 
-:	A stream of consciousness
-
-	A [slip-box](https://zettelkasten.de/introduction/#luhmann-s-zettelkasten); or a collection of thoughts that I'll continue to alter.
+:	A (pseudo) [slip-box](https://zettelkasten.de/introduction/#luhmann-s-zettelkasten); or a collection of thoughts that I'll continue to alter.
 
 *Style Guide*
 

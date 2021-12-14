@@ -1,4 +1,3 @@
-% Welcome
 
 What is this place?
 
@@ -9,7 +8,6 @@ What is this place?
 A Few Good... Links
 
 * [GitHub](https://github.com/micahco)
-* [Resume]()
 
 From around the web
 

@@ -1,4 +1,4 @@
-% Programmer's Paradox
+% Computing Paradox
 
 *Computing, programming, "The Web"*
 
