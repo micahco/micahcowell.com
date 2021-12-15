@@ -25,14 +25,17 @@ main {
 main hr {
 	margin: 4em 0;
 }
-blockquote  {
+main dt {
+	margin-top: 2em;
+}
+main dd {
+	margin-top: 5pt;
+}
+main blockquote  {
 	margin: 10pt 0;
 	padding: 5pt 10pt;
 	border-left: 2pt solid grey;
 	color: grey;
-}
-dt {
-	margin-top: 2em;
 }
 @media (prefers-color-scheme: dark) {
 	body{
