@@ -4,4 +4,4 @@
 
 :	Harmless and pure concepts
 
-	But it seems the purest of ideas are corporeally corrupted
+	But it seems the purest of ideas are corporeally [corrupted](https://v.cent.co/tweet/608682016205344768)

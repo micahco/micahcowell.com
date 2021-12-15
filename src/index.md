@@ -5,11 +5,7 @@ What is this place?
 2. [Structured Procrastination](http://www.structuredprocrastination.com/)
 3. An Appeal to Heaven
 
-A Few Good... Links
-
-* [GitHub](https://github.com/micahco)
-
-From around the web
+A Few Good... Links<br>*From around the web*
 
 * <https://eradman.com/>
 * <https://drewdevault.com/>
