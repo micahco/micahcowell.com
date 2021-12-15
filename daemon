@@ -14,27 +14,8 @@ for sig in INT QUIT HUP TERM; do
 done
 trap cleanup EXIT
 
-conf="${PWD}/ssg.conf"
-if [ -f ${conf} ]; then
-	. ${conf}
-else
-	echo "missing: ${conf}"
-	exit 1
-fi
-
-archive() {
-	while sleep 0.1; do
-		find src/archive -type f | entr -d ./archive -i
-	done
-}
-
-site() {
-	while sleep 0.1; do
-		find ${SRCDIR} ${STATICDIR} -type f | entr -d ssg -b
-	done
-}
-
-archive &
-site &
-httpwatcher --root ${DESTDIR} --port 8000 --no-browser &
+while sleep 0.1; do
+	find src static -type f | entr -d ssg -b
+done &
+httpwatcher --root dist --port 8000 --no-browser &
 wait

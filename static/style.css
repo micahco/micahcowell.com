@@ -26,6 +26,7 @@ main hr {
 	margin: 4em 0;
 }
 main dt {
+	font-style: italic;
 	margin-top: 2em;
 }
 main dd {
