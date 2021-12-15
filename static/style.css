@@ -20,6 +20,7 @@ nav a {
 }
 main {
 	margin: 2em 0;
+	overflow-wrap: break-word;
 }
 main hr {
 	margin: 4em 0;

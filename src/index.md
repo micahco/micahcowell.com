@@ -13,7 +13,6 @@ From around the web
 
 * <https://eradman.com/>
 * <https://drewdevault.com/>
-* <https://sive.rs>
 * <https://johnmacfarlane.net/>
 * <http://doc.cat-v.org/bell_labs/pikestyles>
 * <https://www.ecoliteracy.org/article/designers-challenge-four-problems-you-must-solve>
