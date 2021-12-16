@@ -5,6 +5,12 @@ body {
 	line-height: 1.5em;
 	font-family: system-ui;
 }
+@media (prefers-color-scheme: dark) {
+	body{
+		background: black;
+		color: beige;
+	}
+}
 a {
 	color: teal;
 	text-decoration: none;
@@ -33,14 +39,12 @@ main dd {
 	margin-top: 5pt;
 }
 main blockquote  {
-	margin: 10pt 0;
-	padding: 5pt 10pt;
+	padding: 0 10pt;
 	border-left: 2pt solid grey;
 	color: grey;
 }
-@media (prefers-color-scheme: dark) {
-	body{
-		background: black;
-		color: beige;
-	}
+main pre {
+	background: darkslategray;
+	color: lightcyan;
+	padding: 1em;
 }

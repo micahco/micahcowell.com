@@ -1,10 +1,17 @@
 % Blog
 
 Computing
-:	[Handling Errors in Shell Script](Handling-Errors-in-Shell-Script.html)
+:	[Shell Script: Introduction](computing/Shell-Script-Introduction.html)
+:	[Shell Script: Handling Errors](computing/Shell-Script-Handling-Errors.html)
 
 Philosophy
-:	[Computing Paradox](Computing-Paradox.html)
-:	[Vanitas Vanitatum](Vanitas-Vanitatum.html)
-:	[Remorse and Illness](Remorse-and-Illness.html)
-:	[Optimistic Pessimism](Optimistic-Pessimism.html)
+:	[Computing Paradox](philosophy/Computing-Paradox.html)
+:	[Vanitas Vanitatum](philosophy/Vanitas-Vanitatum.html)
+:	[Remorse and Illness](philosophy/Remorse-and-Illness.html)
+:	[Optimistic Pessimism](philosophy/Optimistic-Pessimism.html)
+
+*About*
+
+A digital journal based heavily on hyperlink and blockquote.
+
+The actual styling of this web page is intended to be very minimal. I don't plan on hosting any media on this site (audio, images, videos). There is ~40 lines of css to improve readability; no JavaScript.
