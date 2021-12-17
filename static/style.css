@@ -11,6 +11,15 @@ body {
 		color: beige;
 	}
 }
+h1 {
+	font-size: x-large;
+}
+h2 {
+	font-size: large;
+}
+h3, h4, h5, h6 {
+	font-size: medium;
+}
 a {
 	color: teal;
 	text-decoration: none;
@@ -19,6 +28,10 @@ a:hover {
 	background-color: aqua;
 }
 nav h2 {
+	margin-bottom: 5pt;
+}
+header {
+	font-family: monospace;
 	margin-bottom: 5pt;
 }
 nav a {
