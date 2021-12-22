@@ -8,7 +8,7 @@
 </head>
 <body>
 	<header>
-		<span>Last updated on December 16, 2021</span>
+		<span>Last updated on December 22, 2021</span>
 	</header>
 	<nav>
 		<a href="/">home</a>
@@ -18,22 +18,22 @@
 	<main>
 		<h1>Shell Script: Handling Errors</h1>
 		<dl>
-<dt>Shell Script Series</dt>
-<dd><a href="Shell-Script-Introduction.html">Shell Script: Introduction</a>
-</dd>
-<dd><a href="Shell-Script-Handling-Errors.html">Shell Script: Handling Errors</a><br />
+  <dt>Shell Script Series</dt>
+  <dd><a href="Shell-Script-Introduction.html">Shell Script: Introduction</a>
+  </dd>
+  <dd><a href="Shell-Script-Handling-Errors.html">Shell Script: Handling Errors</a><br />
 
-</dd>
-</dl>
-<pre><code>errorMsg() {
-    echo &quot;error: ${1}&quot;
-    shift
-    for msg in &quot;$@&quot;; do
-        echo &quot;${msg}&quot;
-    done
-    echo &quot;help: man foo&quot;
-    exit 1;
-}</code></pre>
+  </dd>
+  </dl>
+  <pre><code>errorMsg() {
+      echo &quot;error: ${1}&quot;
+      shift
+      for msg in &quot;$@&quot;; do
+          echo &quot;${msg}&quot;
+      done
+      echo &quot;help: man foo&quot;
+      exit 1;
+  }</code></pre>
 	</main>
 </body>
 </html>

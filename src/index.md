@@ -6,6 +6,7 @@ What is this place?
 :	An Appeal to Heaven
 
 A Few Good... Links
+:	<http://www.russellcottrell.com/fractalsEtc/>
 :	<https://www.wikiart.org/en/fra-angelico>
 :	<https://www.jesus-story.net/pilates-trial/>
 :	<https://mwi.usma.edu/war-books-building-counterinsurgency-library/>
