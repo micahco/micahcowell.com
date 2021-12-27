@@ -1,11 +1,10 @@
 % Home
 
-What is this place?
-:	[Structured Procrastination](http://www.structuredprocrastination.com/)
-:	Unstructured Thought
-:	An Appeal to Heaven
+An Appeal to Heaven~
 
 A Few Good... Links
+:	<http://www.structuredprocastination.com/>
+:	<http://www.violence.de>
 :	<http://www.russellcottrell.com/fractalsEtc/>
 :	<https://www.wikiart.org/en/fra-angelico>
 :	<https://www.jesus-story.net/pilates-trial/>

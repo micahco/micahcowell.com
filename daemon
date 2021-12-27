@@ -12,7 +12,7 @@ done
 trap cleanup EXIT
 
 while sleep 0.1; do
-	find src static -type f | entr -d ssg -b
+	find src static template.html -type f | entr -d ssg -b
 done &
 httpwatcher --root dist --port 8000 --no-browser &
 wait

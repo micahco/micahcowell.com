@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>SSG(1) Version 0.1 | Manual</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		body {
+			max-width: 400pt;
+			margin: 0 auto;
+		}
+		dt {
+			font-style: italic;
+			font-size: 1.2rem;
+			margin-top: 15pt;
+		}
+		dd {
+			margin-top: 5pt;
+			margin-bottom: 5pt;
+		}
+		pre {
+    			background-color: #FDF6E3;
+			padding: 1em;
+		}
+		.sourceCode .kw { color: #268BD2; }
+		.sourceCode .dt { color: #268BD2; }
+		.sourceCode .dv, .sourceCode .bn, .sourceCode .fl { color: #D33682; }
+		.sourceCode .ch { color: #DC322F; }
+		.sourceCode .st { color: #2AA198; }
+		.sourceCode .co { color: #93A1A1; }
+		.sourceCode .ot { color: #A57800; }
+		.sourceCode .al { color: #CB4B16; font-weight: bold; }
+		.sourceCode .fu { color: #268BD2; }
+		.sourceCode .er { color: #D30102; font-weight: bold; }
+	</style>
+</head>
+<body>
+	<header>
+		<span>Last updated on December 27, 2021</span>
+	</header>
+	<nav>
+		<a href="/">home</a>
+		<a href="/blog">blog</a>
+		<a href="/projects">projects</a>
+	</nav>
+	<main>
+		<h1>SSG(1) Version 0.1 | Manual</h1>
+		<h1 id="name">NAME</h1>
+  <p><strong>ssg</strong> — static site generator</p>
+  <h1 id="synopsis">SYNOPSIS</h1>
+  <p><strong>ssg [-b]</strong></p>
+  <h1 id="description">DESCRIPTION</h1>
+  <p>A tiny script for creating websites with <code>pandoc</code>.</p>
+  <h2 id="options">Options</h2>
+  <p><strong><code>-b</code></strong>: Build site</p>
+  <h2 id="configuration">CONFIGURATION</h2>
+  <p>A valid configuration file <code>./ssg.conf</code> is required to build.</p>
+  <p><strong>Note</strong>: Do not add trailing <code>/</code> to paths.</p>
+  <dl>
+  <dt><code>SRCDIR</code></dt>
+  <dd><p>Path to input directory. Can contain files of valid <code>pandoc</code> input formats.</p>
+  <p><a href="https://pandoc.org/MANUAL.html#general-options" class="uri">https://pandoc.org/MANUAL.html#general-options</a></p>
+  </dd>
+  <dt><code>DESTDIR</code></dt>
+  <dd><p>Path to output directory.</p>
+  </dd>
+  <dt><code>STATICDIR</code></dt>
+  <dd><p>Path to static directory. This directory’s contents will be copied into the <code>DESTDIR</code>.</p>
+  </dd>
+  <dt><code>TEMPLATE</code></dt>
+  <dd><p>Path to <code>pandoc --template</code> html file.</p>
+  <p><a href="https://pandoc.org/MANUAL.html#templates" class="uri">https://pandoc.org/MANUAL.html#templates</a></p>
+  </dd>
+  </dl>
+	</main>
+</body>
+</html>
