@@ -1,23 +1,36 @@
 body {
-	max-width: 400pt;
-	margin: 0 auto;
 	padding: 1em;
+	line-height: 1.5em;
+	font-size: large;
+}
+#ring {
+	padding: 0 3em;
+	line-height: 3em;
+	word-spacing: 3em;
+}
+#ring .uri {
+	word-break: keep-all;
+}
+footer {
+	margin-top: 2em;
+	padding: 1em;
+	border-top: 1px dashed grey;
+	color: grey;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 1em 0;
+	font-size: x-large;
 }
 a { color: teal; }
 a:visited { color: teal; }
 a:hover { color: purple; }
 a:active { color: purple; }
 dt {
-	font-style: italic;
-	font-size: 1.2rem;
-	margin-top: 15pt;
+	margin-top: 2em;
 }
 dd {
 	margin-top: 5pt;
 	margin-bottom: 5pt;
-}
-ul {
-	margin-top: 1em;
 }
 li {
 	margin-top: 1em;
@@ -27,9 +40,7 @@ blockquote  {
 	border-left: 2pt solid grey;
 	color: grey;
 }
-pre {
-	padding: 1em 2em;
-}
+pre { padding: 1em 2em; }
 .sourceCode .kw { color: #268BD2; }
 .sourceCode .dt { color: #268BD2; }
 .sourceCode .dv, .sourceCode .bn, .sourceCode .fl { color: #D33682; }
