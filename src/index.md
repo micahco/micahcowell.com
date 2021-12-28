@@ -1,17 +1,15 @@
 % Home
 
-An Appeal to Heaven~
-
-A Few Good... Links
-:	<http://www.structuredprocastination.com/>
-:	<http://www.violence.de>
-:	<http://www.russellcottrell.com/fractalsEtc/>
-:	<https://www.wikiart.org/en/fra-angelico>
-:	<https://www.jesus-story.net/pilates-trial/>
+A Few Good ~ Links
+:	<http://www.structuredprocastination.com>
+:	<http://violence.de>
+:	<http://russellcottrell.com/fractalsEtc>
+:	<https://wikiart.org/en/fra-angelico>
+:	<https://jesus-story.net/pilates-trial/>
 :	<https://mwi.usma.edu/war-books-building-counterinsurgency-library/>
-:	<https://www.ecoliteracy.org/article/designers-challenge-four-problems-you-must-solve>
+:	<https://ecoliteracy.org/article/designers-challenge-four-problems-you-must-solve>
 :	<https://johnmacfarlane.net/>
 :	<https://eradman.com/>
 :	<https://drewdevault.com/>
 :	<http://doc.cat-v.org/bell_labs/pikestyles>
-:	<https://www.grymoire.com/Unix/>
+:	<https://grymoire.com/Unix/>

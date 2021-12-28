@@ -3,7 +3,10 @@ body {
 	margin: 0 auto;
 	padding: 1em;
 }
-
+a { color: teal; }
+a:visited { color: teal; }
+a:hover { color: purple; }
+a:active { color: purple; }
 dt {
 	font-style: italic;
 	font-size: 1.2rem;
@@ -13,9 +16,19 @@ dd {
 	margin-top: 5pt;
 	margin-bottom: 5pt;
 }
+ul {
+	margin-top: 1em;
+}
+li {
+	margin-top: 1em;
+}
+blockquote  {
+	padding: 0 10pt;
+	border-left: 2pt solid grey;
+	color: grey;
+}
 pre {
-	background-color: #FDF6E3;
-	padding: 1em;
+	padding: 1em 2em;
 }
 .sourceCode .kw { color: #268BD2; }
 .sourceCode .dt { color: #268BD2; }

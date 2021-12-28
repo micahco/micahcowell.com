@@ -1,8 +1,4 @@
-% Shell Script: Introduction
-
-Shell Script Series
-:	[Shell Script: Introduction](Shell-Script-Introduction.html)
-:	[Shell Script: Handling Errors](Shell-Script-Handling-Errors.html)
+% Posix Thoughts
 
 <https://www.grymoire.com/Unix/>
 
